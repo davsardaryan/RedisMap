@@ -11,3 +11,6 @@ Redis Map is a Java class that provides a convenient interface for working with 
 ## Installation
 
 - The lib directory contains all the necessary libraries.
+- Ensure that your Redis server is running.
+- It works on default host and port (Jedis jedis = new Jedis("localhost", 6379))
+- In your case maybe you need to change host and port
